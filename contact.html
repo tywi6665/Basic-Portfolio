@@ -8,7 +8,7 @@
 
     <header>
         <div class="container">
-            <img src="#" alt="logo" class="logo">
+                <figure class="logo">Tyler Winstead</figure>
                 <nav>
                     <ul>
                         <li><a href="index.html">About</a></li>
@@ -20,18 +20,31 @@
     </header>
 
     <body background="assets\images\funky-lines.png">
-        <div class="middle"> 
+        <div id="middle" id="contactpage"> 
             <h1>Contact</h1>
             <hr>
             <form>
-                Name:<br>
-                <input type="text" name="name" value="John Smith"><br> 
-                Email:<br>
-                <input type="text" name="email" value="email@email.com"><br>
-                Messages:<br>
-                <input class="messages" type="text" name="messages"><br>
-                <input class="button" type="submit" name="submit" value="submit"><br>
+                <div class="contact">
+                    <label for="input1">Name</label><br>
+                    <input type="text" placeholder="John Smith"><br> 
+                </div>
+                <div class="contact">
+                    <label for="input2">Email</label><br>
+                    <input type="text" placeholder="email@email.com"><br>
+                </div>
+                <div class="contact">
+                    <label for="input3">Messages</label><br>
+                    <textarea class="messages" type="text" rows="10"></textarea><br>
+                </div>
             </form>
+            <div class="submit"></div>
+                <button class="button" type="button" name="submit" value="submit">Submit</button><br>
+            </div>
+        </div>
+        
+        <div id="footer">
+            <div class="foot1"></div>
+            <div class="foot2"></div>
         </div>
     </body>
 </html>
